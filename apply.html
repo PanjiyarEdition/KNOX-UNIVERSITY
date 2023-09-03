@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> KNOX UNIVERSITY </title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .menu {
+            height: 100vh;
+            width: 100%;
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo {
+            color: #f9004d;
+            font-size: 45px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 45px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+        .btn {
+            background-color: #f9004d;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: transform .4s;
+        }
+
+
+        span {
+            color: #f9004d;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 25px;
+        }
+
+        nav ul li a {
+
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: 30px;
+
+        }
+
+        nav ul li a:hover {
+            color: #f9004d;
+            transition: .4s;
+        }
+
+
+
+        .btn:hover {
+            transform: scale(1.2);
+        }
+
+
+        h5 {
+            color: white;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            padding-top: 130px;
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background: DarkSlateGray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer p:nth-child(1) {
+            font-size: 40px;
+            color: Lavender;
+            font-weight: bold;
+            text-align: center;
+            font-family: "Segoe Script";
+
+        }
+
+        .social {
+            display: flex;
+        }
+
+        .social a {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f9004d;
+            border-radius: 50%;
+            margin: 22px 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .social a:hover {
+            transform: scale(1.3);
+            transition: .3s;
+        }
+
+        .end {
+            position: absolute;
+            color: #f2eaf3;
+            bottom: 35px;
+            font-size: 18px;
+        }
+
+        .s {
+            background-color: #f9004d;
+            text-align: center;
+        }
+    </style>
+
+<body>
+
+    <body>
+        <div class="menu">
+            <nav>
+                <h1 class="logo"> <b> KnoX <br>
+                        <span> University </span> </b> </h1>
+                <ul>
+                    <li> <a href="home.html"> <i class="fa fa-home"> </i> Home </a> </li>
+                    <li> <a href="course.html"> <i class="fa fa-book"></i> Course </a> </li>
+                    <li> <a href="about.html"> <i class="fa fa-eye"> </i> About Us </a> </li>
+                    <li> <a href="contact.html"> <i class="fa fa-phone"> </i> Contact </a> </li>
+                </ul>
+                <a href="apply.html" class="btn"> <i class="fa fa-edit"> </i> Apply Online</a>
+            </nav>
+
+            &nbsp;<br> &nbsp;<br>
+
+            <h1 align="center"> APPLY FOR NEW COURSE IN KNOX UNIVERSITY </h1>&nbsp;<br>
+            <form align="center">
+                <fieldset>
+                    <legend> PERSONAL DATA : </legend>
+
+                    <label for="fname"> First name: </label>
+                    <input type="text" id="fname" name="fname" required>
+
+                    <label for="lname"> Last name : </label>
+                    <input type="text" id="lname" name="lname" required> <br>
+
+                    <label for="fname"> Father First name: </label>
+                    <input type="text" id="fname" name="fname" required>
+
+                    <label for="lname"> Father Last name : </label>
+                    <input type="text" id="lname" name="lname" required> <br>
+
+                    <label for="fname"> Mother First name: </label>
+                    <input type="text" id="fname" name="fname" required>
+
+                    <label for="lname"> Mother Last name : </label>
+                    <input type="text" id="lname" name="lname" required> <br>
+
+                    <label for="lname"> Your Caste : </label>
+                    <input type="text" id="lname" name="lname" required>
+
+                    <label for="fname"> Date Of Birth: </label>
+                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="date" id="fname" name="fname" required><br>
+
+                    <label for="fname">Mobile No. : </label>
+
+                    <input type="number" id="mname" name="mname">
+
+                    <label for="lname">Gmail : </label>
+
+                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+                    <input type="email" id="lname" name="lname" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend> QUALIFICATION DETAILS : </legend>
+                    <p>HSLC DETAILS</p>
+                    <label for="fname"> HSCL Board : </label>
+                    <input type="text" id="fname" name="fname" required>
+
+                    <label for="fname"> Total Subjects: </label>
+                    <input type="number" id="fname" name="fname" required>
+
+                    <label for="fname"> Total Marks : </label>
+                    <input type="text" id="fname" name="fname" required>
+
+                    <label for="fname"> Marks In % : </label>
+                    <input type="number" id="fname" name="fname" required>
+
+                    <label for="fname"> Division/Grade : </label>
+                    <input type="text" id="fname" name="fname" required><br>
+
+                    <p>HS(12th) DETAILS</p>
+                    <label for="fname"> 12th Board : </label>
+                    <input type="text" id="fname" name="fname" required>
+
+                    <label for="fname"> Total Subjects: </label>
+                    <input type="number" id="fname" name="fname" required>
+
+                    <label for="fname"> Total Marks : </label>
+                    <input type="text" id="fname" name="fname" required>
+
+                    <label for="fname"> Marks In % : </label>
+                    <input type="number" id="fname" name="fname" required>
+
+                    <label for="fname"> Division/Grade : </label>
+                    <input type="text" id="fname" name="fname" required><br>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend> COURSE DETAILS : </legend>
+                    <label for="browser">Choose Your Course From The List : &nbsp; &nbsp; </label>
+                    <input list="course" name="Learn Course" id="learn" required>
+                    <datalist id="course">
+                        <option value="Btech">
+                        <option value="BBA">
+                        <option value="LLB">
+                        <option value="BA.">
+                        <option value="BCOM.">
+                        <option value="BSC.">
+                    </datalist>
+
+                    <label for="course">Choose Your Site language : &nbsp; &nbsp;</label>
+                    <select id="course" name="course" multiple required>
+                        <option value="Patna">English</option><br>
+                        <option value="Delhi">Hindi</option>
+                        <option value="Lucknow">Assamese</option>
+                        <option value="Guwahati">Bengali</option>
+                    </select>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend> DOCUMENTS DETAILS : </legend>
+
+                    <label for="fname"> 10th Marksheet No : </label>
+                    <input type="number" id="fname" name="fname" required> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+
+                    <label for="fname"> 10th Certificate No : </label>
+                    <input type="number" id="fname" name="fname" required> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+
+                    <label for="fname"> 12th Marksheet No : </label>
+                    <input type="number" id="fname" name="fname" required> &nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+
+                    <label for="fname">12th Certificate No: </label>
+                    <input type="number" id="fname" name="fname">
+                </fieldset>
+
+
+
+                <fieldset>
+                    <legend> UPLOAD YOUR DOCUMENTS : </legend>
+
+
+                    <label for="myfile">10th Marksheet :</label>
+                    <input type="file" id="myfile" name="myfile" required>
+                    <label for="myfile">10th Certificate :</label>
+                    <input type="file" id="myfile" name="myfile" required><br>
+                    <label for="myfile">12th Marksheet :</label>
+                    <input type="file" id="myfile" name="myfile" required>
+                    <label for="myfile">12th Certificate :</label>
+                    <input type="file" id="myfile" name="myfile" required> <br>
+                    <label for="myfile">Aadhar Card :</label>
+                    <input type="file" id="myfile" name="myfile" required>
+                    <label for="myfile">Caste Certificate :</label>
+                    <input type="file" id="myfile" name="myfile" required>
+                </fieldset>
+
+                <input type="reset">
+                <button onclick="window.print()">Print
+                </button>
+                <input align="right" type="submit" value="APPLY">
+
+            </form>
+
+            <footer>
+                <p> For more detail : Let Us Get Connected </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+                </div>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+            </footer>
+            <div class="s">
+                <h5> @ CopyRight 2022 KNOX UNIVERSITY : All rights reserved </h5>
+
+            </div>
+    </body>
+
+</html>

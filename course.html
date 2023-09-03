@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> KNOX UNIVERSITY </title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+            box-sizing: border-box;
+        }
+
+        .menu {
+            height: 100vh;
+            width: 100%;
+
+            background-size: cover;
+            background-position: center;
+        }
+
+        .logo {
+            color: #f9004d;
+            font-size: 45px;
+            letter-spacing: 1px;
+            cursor: pointer;
+        }
+
+        nav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-top: 45px;
+            padding-left: 8%;
+            padding-right: 8%;
+        }
+
+        .btn {
+            background-color: #f9004d;
+            color: white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 10px 25px;
+            border-radius: 30px;
+            transition: transform .4s;
+        }
+
+
+        span {
+            color: #f9004d;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            display: inline-block;
+            padding: 10px 25px;
+        }
+
+        nav ul li a {
+
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: 30px;
+
+        }
+
+        nav ul li a:hover {
+            color: #f9004d;
+            transition: .4s;
+        }
+
+
+
+        .btn:hover {
+            transform: scale(1.2);
+        }
+
+
+        h5 {
+            color: white;
+            font-size: 23px;
+            margin-bottom: 15px;
+        }
+
+        footer {
+            padding-top: 130px;
+            position: relative;
+            width: 100%;
+            height: 300px;
+            background: DarkSlateGray;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        footer p:nth-child(1) {
+            font-size: 40px;
+            color: Lavender;
+            font-weight: bold;
+            text-align: center;
+            font-family: "Segoe Script";
+
+        }
+
+        .social {
+            display: flex;
+        }
+
+        .social a {
+            width: 45px;
+            height: 45px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #f9004d;
+            border-radius: 50%;
+            margin: 22px 10px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .social a:hover {
+            transform: scale(1.3);
+            transition: .3s;
+        }
+
+        .end {
+            position: absolute;
+            color: #f2eaf3;
+            bottom: 35px;
+            font-size: 18px;
+        }
+
+        .s {
+            background-color: #f9004d;
+            text-align: center;
+        }
+
+        .t {
+
+            margin-left: 25%;
+            width: 50%;
+            background-color: wheat;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="menu">
+        <nav>
+            <h1 class="logo"> <b> KnoX <br>
+                    <span> University </span> </b> </h1>
+            <ul>
+                <li> <a href="home.html"> <i class="fa fa-home"> </i> Home </a> </li>
+                <li> <a href="course.html"> <i class="fa fa-book"></i> Course </a> </li>
+                <li> <a href="about.html"> <i class="fa fa-eye" "> </i> About Us </a> </li>
+                <li> <a href=" contact.html"> <i class="fa fa-phone"> </i> Contact </a> </li>
+            </ul>
+            <a href="apply.html" class="btn"> <i class="fa fa-edit"> </i> Apply Online</a>
+        </nav>
+
+        <div class="content">
+            &nbsp;<br>
+            &nbsp;<br>
+            &nbsp;<br>
+            &nbsp;<br>
+            &nbsp;<br>
+
+            <h2 class="t" align="center"> Courses Of Study </h2>
+            <p class="t" align="center"> Three year Degree courses in Science( B.Sc.), Arts(B.A.) and
+                Commerce(B.Com)<br>
+                [ under KnoX University UG-CBCS]</p>
+
+            <table class="t" border="5">
+
+                <caption>DATA : </caption>
+                <tr>
+                    <th> S.No. </th>
+                    <th> COURSE </th>
+                    <th> STREAM </th>
+                    <th> Subjects Offered </th>
+                </tr>
+
+                <tr>
+                    <td> 01 </td>
+                    <th rowspan="3"> TDC 1ST SEMESTER </th>
+                    <td> ARTS </td>
+                    <td> <b>Honours: </b>Assamese, English, Hindi, Education,
+                        Economics, History, Mathematics, Geography, Political Science .<br>
+                        <b> Generic:</b> All the above subjects + Bengali
+                    </td>
+                </tr>
+                <tr>
+                    <td> 02 </td>
+
+                    <td> COMMERCE </td>
+                    <td><b> Honours:</b> Accountancy, Management, Finance <br>
+                        <b>Generic:</b> Same as Honours Subjects
+                    </td>
+                </tr>
+                <tr>
+                    <td> 03 </td>
+
+                    <td> SCIENCE </td>
+                    <td> <b>Honours:</b> Botany, Chemistry, Mathematics, Physics,
+                        Zoology, Economics, Geography <br>
+                        <b> Generic:</b> Same as Honours subjects
+                    </td>
+                </tr>
+                <tr>
+                    <td> 04 </td>
+                    <th rowspan="3"> TECHNOLOGY </th>
+                    <td> AE </td>
+                    <td rowspan="3"> CURRICULUM, Provided By <b> AICTE </b>
+                    </td>
+                </tr>
+                <tr>
+                    <td> 05</td>
+                    <td> ECE </td>
+                </tr>
+                <tr>
+                    <td> 06 </td>
+                    <td> CSE </td>
+                </tr>
+            </table>
+
+
+
+
+            &nbsp;<br>
+            <footer>
+                <p> For more detail : Let Us Get Connected </p>
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+
+                </div>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+                &nbsp;<br>
+            </footer>
+            <div class="s">
+                <h5> @ CopyRight 2022 KNOX UNIVERSITY : All rights reserved </h5>
+
+            </div>
+
+</body>
+
+</html>
